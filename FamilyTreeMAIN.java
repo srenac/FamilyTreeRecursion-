@@ -3,11 +3,11 @@ public class FamilyTree
 {
 	public static void main(String args[])
 	{
-		Person Grandpapa = new Person("Paj");
+		Person Grandpapa = new Person("Smith");
 		Person Grandmama = new Person ("Yang");
 		Person Papa = new Person ("Bob", Grandpapa, Grandmama);
 		Person Auntie = new Person("Linda", Grandpapa, Grandmama);
-		Person Auntie2 = new Person("Serena", Grandpapa, Grandmama);
+		Person Auntie2 = new Person("Sarah", Grandpapa, Grandmama);
 		Person Uncle = new Person("Patrick", Grandpapa, Grandmama);
 		
 		Person Mama = new Person("Mao");
